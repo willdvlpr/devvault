@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devvault"
+version = "0.1.0"
+description = "Local-first knowledge base CLI for storing and executing knowledge artifacts"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Developer"}
+]
+dependencies = [
+    "click>=8.0",
+    "tinydb>=4.0",
+    "requests>=2.25",
+    "rich>=13.0",
+]
+
+[project.scripts]
+devvault = "devvault.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]

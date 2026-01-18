@@ -1,0 +1,1 @@
+{"_default": {"1": {"id": "700e5b26", "type": "command", "name": "test", "description": "test command", "content": "echo hello", "tags": ["test"], "created_at": "2026-01-18T21:55:26.264239", "updated_at": "2026-01-18T21:55:26.264239", "metadata": {}}}}
